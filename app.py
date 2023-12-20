@@ -53,7 +53,7 @@ st.title("SMS Classifier")
 
 input_sms = st.text_area("Enter the message", height=100)
 
-if st.button('Predict'):
+if st.button('Check'):
     if input_sms:
         # 1. Preprocess
         transformed_sms = transform_text(input_sms)
