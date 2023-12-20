@@ -46,7 +46,7 @@ st.markdown(
 )
 
 # Streamlit UI
-st.title("Email/SMS Spam Classifier")
+st.title("SMS Classifier")
 
 input_sms = st.text_area("Enter the message", height=100)
 
