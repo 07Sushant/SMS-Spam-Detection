@@ -1,8 +1,12 @@
 import streamlit as st
 import pickle
 import string
-from nltk.corpus import stopwords
 import nltk
+
+# Download NLTK resources
+nltk.download('punkt')
+nltk.download('stopwords')
+from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
@@ -23,38 +27,19 @@ def transform_text(text):
     return " ".join(y)
 
 # Load models
-tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
-model = pickle.load(open('model.pkl', 'rb'))
+# Assuming your files are in the same directory as the script
+vectorizer_path = 'vectorizer.pkl'
+model_path = 'model.pkl'
+
+with open(vectorizer_path, 'rb') as vectorizer_file, open(model_path, 'rb') as model_file:
+    tfidf = pickle.load(vectorizer_file)
+    model = pickle.load(model_file)
 
 # Streamlit UI with custom HTML/CSS
 st.markdown(
     """
     <style>
-        body {
-            background-color: rgba(255, 255, 255, 0.3);
-            color: rgba(0, 0, 0, 0.8);
-            font-family: Arial, sans-serif;
-        }
-        .stTextInput {
-            background-color: rgba(255, 255, 255, 0.5);
-            border-radius: 10px;
-            padding: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .stButton>button {
-            background-color: rgba(0, 123, 255, 0.8);
-            color: white;
-            border-radius: 5px;
-        }
-        .stButton>button:hover {
-            background-color: rgba(0, 123, 255, 1);
-        }
-        .stMarkdown {
-            background-color: rgba(255, 255, 255, 0.5);
-            border-radius: 10px;
-            padding: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
+        /* Your CSS styles */
     </style>
     """,
     unsafe_allow_html=True
