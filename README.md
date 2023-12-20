@@ -1,3 +1,3 @@
 ## SPAM-classifier
 # About
-Spam-Detection Model Trained using Data Science and Machine Learning and Deployed online.
+## Develop a text classification model to classify SMS as either spam or non-spam using data science techniques in Python.
