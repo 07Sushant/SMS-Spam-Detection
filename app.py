@@ -35,17 +35,20 @@ with open(vectorizer_path, 'rb') as vectorizer_file, open(model_path, 'rb') as m
     tfidf = pickle.load(vectorizer_file)
     model = pickle.load(model_file)
 
-# Streamlit UI with custom HTML/CSS
+# Streamlit UI with background image
 st.markdown(
     """
     <style>
-        /* Your CSS styles */
+        body {
+            background-image: url('https://your_website.com/your_image_path.jpg'); /* Replace this URL with the direct URL to your image */
+            background-size: cover;
+        }
     </style>
     """,
     unsafe_allow_html=True
 )
 
-# Streamlit UI
+# Streamlit UI components
 st.title("SMS Classifier")
 
 input_sms = st.text_area("Enter the message", height=100)

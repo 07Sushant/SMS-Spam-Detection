@@ -1,0 +1,6 @@
+[theme]
+primaryColor="#1F1F1F"  # Dark primary color
+backgroundColor="#121212"  # Dark background color
+secondaryBackgroundColor="#0D0D0D"  # Slightly lighter secondary background color
+textColor="#FFFFFF"  # White text color for better contrast
+font="sans serif"
