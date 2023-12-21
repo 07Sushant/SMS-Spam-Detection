@@ -12,6 +12,8 @@ This project aims to develop a text classification model using data science tech
 |-------------|-------------|
 | ![Image 1](https://github.com/07Sushant/SMS-Spam-Detection/blob/main/images/1.png) | ![Image 2](https://github.com/07Sushant/SMS-Spam-Detection/blob/main/images/2.png) |
 | **&nbsp;&nbsp;&nbsp;&nbsp;Image 3** | **&nbsp;&nbsp;&nbsp;&nbsp;Image 4** |
+| **Image 3** | **Image 4** |
+|-------------|-------------|
 | ![Image 3](https://github.com/07Sushant/SMS-Spam-Detection/blob/main/images/3.png) | ![Image 4](https://github.com/07Sushant/SMS-Spam-Detection/blob/main/images/4.png) |
 
 ## Description
