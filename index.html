@@ -98,10 +98,9 @@
       duration: 5500,
       easing: 'Linear',
     }).draw(function() {
-      console.dir('Finished Pyramid');
       setTimeout(function() {
         $('#pre_title').fadeTo(1000, 1);
-        $('.progress-bar').animate({width: '100%'}, 10000, function() {
+        document.querySelector('.progress-bar').animate({width: '100%'}, 10000, function() {
           setTimeout(function() {
             window.location.href = "https://sms-spam-detection-smerpnxelfzzjdw5wjsesu.streamlit.app/";
           }, 1000);
