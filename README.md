@@ -7,7 +7,7 @@ This project aims to develop a text classification model using data science tech
 
 ## Preview
 ### Pictures
-<!-- Two rows, two columns grid -->
+<!-- 2x2 grid layout -->
 <div style="display: flex; flex-wrap: wrap;">
     <div style="flex: 50%; padding: 5px;">
         <img src="https://github.com/07Sushant/SMS-Spam-Detection/blob/main/images/1.png" alt="Image 1" style="width: 100%;">
