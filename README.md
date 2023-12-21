@@ -1,5 +1,7 @@
-# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SPAM Classifier Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SPAM Classifier Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 <br>
+
 ## Introduction
 This project aims to develop a text classification model using data science techniques in Python to classify SMS messages as either spam or non-spam.
 
