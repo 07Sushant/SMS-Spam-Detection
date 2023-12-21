@@ -7,20 +7,19 @@ This project aims to develop a text classification model using data science tech
 
 ## Preview
 ### Pictures
-<!-- Replace the image links with your own image URLs -->
 <!-- Two rows, two columns grid -->
 <div style="display: flex; flex-wrap: wrap;">
     <div style="flex: 50%; padding: 5px;">
-        <img src="image_url_1" alt="Image 1" style="width: 100%;">
+        <img src="https://github.com/07Sushant/SMS-Spam-Detection/blob/main/images/1.png" alt="Image 1" style="width: 100%;">
     </div>
     <div style="flex: 50%; padding: 5px;">
-        <img src="image_url_2" alt="Image 2" style="width: 100%;">
+        <img src="https://github.com/07Sushant/SMS-Spam-Detection/blob/main/images/2.png" alt="Image 2" style="width: 100%;">
     </div>
     <div style="flex: 50%; padding: 5px;">
-        <img src="image_url_3" alt="Image 3" style="width: 100%;">
+        <img src="https://github.com/07Sushant/SMS-Spam-Detection/blob/main/images/3.png" alt="Image 3" style="width: 100%;">
     </div>
     <div style="flex: 50%; padding: 5px;">
-        <img src="image_url_4" alt="Image 4" style="width: 100%;">
+        <img src="https://github.com/07Sushant/SMS-Spam-Detection/blob/main/images/4.png" alt="Image 4" style="width: 100%;">
     </div>
 </div>
 
