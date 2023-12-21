@@ -3,8 +3,7 @@
 ## Introduction
 This project aims to develop a text classification model using data science techniques in Python to classify SMS messages as either spam or non-spam.
 
-<!-- Video frame -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
+[![Video](video_thumbnail.png)](video_link)
 
 ## Preview
 ### Pictures
