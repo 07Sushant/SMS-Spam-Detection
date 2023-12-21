@@ -1,5 +1,5 @@
-# SPAM Classifier Project
-
+# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SPAM Classifier Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
 ## Introduction
 This project aims to develop a text classification model using data science techniques in Python to classify SMS messages as either spam or non-spam.
 
@@ -27,13 +27,13 @@ This project is a robust SMS spam classifier leveraging machine learning techniq
 ## Key Features
 
 - **Data Cleaning & Exploration:** The project begins with data cleaning and exploratory data analysis (EDA) to understand the SMS dataset.
-
+  
 - **Text Preprocessing:** Utilizing Natural Language Toolkit (NLTK), the text data undergoes preprocessing steps including tokenization, removal of stopwords and punctuation, and stemming to transform the text into a suitable format for machine learning.
-
+  
 - **Model Building & Evaluation:** Various classification algorithms are employed and evaluated to create an accurate spam classifier. The model's performance is rigorously assessed to ensure its reliability in differentiating between spam and legitimate messages.
-
+  
 - **Streamlit-based Web Application:** The project includes a user-friendly web interface created using Streamlit. Users can input a message, and the model predicts whether it's spam or not in real-time.
-
+  
 - **Deployment:** Once the model is trained and validated, it's deployed and ready for use. The classifier can be accessed via a website, offering a practical solution for identifying spam messages.
 
 ## How to Use
@@ -58,30 +58,5 @@ This project is a robust SMS spam classifier leveraging machine learning techniq
 
 This project serves as an efficient tool to identify and filter out spam messages from SMS data, offering a practical solution for users seeking to manage unwanted content effectively.
 
-<style>
-/* Add your custom CSS styling here */
-body {
-    background-color: #f4f4f4;
-    color: #333;
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-}
-
-h1, h2, h3 {
-    color: #007bff;
-}
-
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-code {
-    background-color: #f8f9fa;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-size: 0.9em;
-}
-</style>
 
 <!-- Add more details, methodologies used, and any other relevant information -->
