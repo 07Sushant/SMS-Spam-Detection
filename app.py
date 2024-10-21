@@ -35,9 +35,6 @@ model_path = 'model.pkl'
 try:
     with open(vectorizer_path, 'rb') as vectorizer_file:
         tfidf = pickle.load(vectorizer_file)
-        # Check if the vectorizer is fitted
-        if not hasattr(tfidf, 'vocabulary_'):
-            raise ValueError("The loaded vectorizer is not fitted. Please fit the vectorizer before saving.")
 except Exception as e:
     st.error(f"Error loading vectorizer: {e}")
 
